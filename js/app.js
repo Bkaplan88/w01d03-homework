@@ -1,5 +1,19 @@
 console.log("working");
 
-for (var i = 1; i < 21; i++) {
+// easy going
+// 1
+
+for (let i = 1; i < 21; i++) {
 	console.log(i);
+}
+
+// get even
+// 1
+
+for (let i = 0; i < 201; i++) {
+	if (i % 2 === 0) {
+		console.log(i)
+
+	}
+
 }
