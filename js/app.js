@@ -1,14 +1,14 @@
 console.log("working");
 
 // easy going
-// 1
+
 
 // for (let i = 1; i < 21; i++) {
 // 	console.log(i);
 // }
 
 // get even
-// 1
+
 
 // for (let i = 0; i < 201; i++) {
 // 	if (i % 2 === 0) {
@@ -81,40 +81,40 @@ console.log("working");
 
 // Return of the closets
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-// Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// // Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
-let kristynsShoe = kristynsCloset.shift();
+// let kristynsShoe = kristynsCloset.shift();
 
-thomsCloset[2].push(kristynsShoe);
+// thomsCloset[2].push(kristynsShoe);
 
 // let kristynOutfitArr = [];
 
@@ -140,39 +140,54 @@ thomsCloset[2].push(kristynsShoe);
 
 // dirty laundry
 
-for (let i = 0; i < kristynsCloset.length; i++) {
-	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
-}
+// for (let i = 0; i < kristynsCloset.length; i++) {
+// 	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+// }
 
-for (let i = 0; i < thomsCloset[0].length; i++) {
+// for (let i = 0; i < thomsCloset[0].length; i++) {
 	
-	console.log(thomsCloset[0][i]);
+// 	console.log(thomsCloset[0][i]);
 	
-}
+// }
 
-for (let i = 0; i < thomsCloset[1].length; i++) {
+// for (let i = 0; i < thomsCloset[1].length; i++) {
 	
-	console.log(thomsCloset[1][i]);
+// 	console.log(thomsCloset[1][i]);
 	
-}
+// }
 
-for (let i = 0; i < thomsCloset[2].length; i++) {
+// for (let i = 0; i < thomsCloset[2].length; i++) {
 	
-	console.log(thomsCloset[2][i]);
+// 	console.log(thomsCloset[2][i]);
 	
-}
+// }
 
 // multiples of 3 and 5
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 1000; i > 0; i--) {
-	if (i % 3 === 0 || i % 5 === 0) {
-		sum += i;
-	}
+// for (let i = 1000; i > 0; i--) {
+// 	if (i % 3 === 0 || i % 5 === 0) {
+// 		sum += i;
+// 	}
+// }
+
+// console.log(sum);
+
+// triangles
+
+let argument = 7;
+
+for (let i = 0; i < 7; i++) {
+
+	console.log(argument += "#");
+
 }
 
-console.log(sum);
+
+
+
+
 
 
 
