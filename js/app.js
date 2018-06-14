@@ -55,21 +55,29 @@ console.log("working");
 
 // Getting to know you
 
-const thom = ["Thom", 1000, "Christchurch"]
-const karolin = ["Karolin", 16, "New York"]
-const kristyn = ["Kristyn", 5, "Pittsburgh"]
-const matt = ["Matt H", 186, "Philadelphia"]
+// const thom = ["Thom", 1000, "Christchurch"]
+// const karolin = ["Karolin", 16, "New York"]
+// const kristyn = ["Kristyn", 5, "Pittsburgh"]
+// const matt = ["Matt H", 186, "Philadelphia"]
 
-thom[0] = "Gameboy";
-karolin[1] = 17;
-matt[2] = "Gotham City";
-kristyn.pop();
-kristyn.push("Brooklyn");
+// thom[0] = "Gameboy";
+// karolin[1] = 17;
+// matt[2] = "Gotham City";
+// kristyn.pop();
+// kristyn.push("Brooklyn");
 
-console.log(thom);
-console.log(karolin);
-console.log(kristyn);
-console.log(matt);
+// console.log(thom);
+// console.log(karolin);
+// console.log(kristyn);
+// console.log(matt);
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for (let i = 0; i < ninjaTurtles.length; i++) {
+	
+	console.log(ninjaTurtles[i].toUpperCase());
+
+}
 
 
 
