@@ -7,7 +7,7 @@ for (let i = 1; i < 21; i++) {
 	console.log(i);
 }
 
-get even
+// get even
 
 
 for (let i = 0; i < 201; i++) {
@@ -19,19 +19,22 @@ for (let i = 0; i < 201; i++) {
 }
 
 // excited kitten
- const phrase = ["...human...why you taking pictures of me?...the catnip made me do it", "...why does the red dot always get away..."];
-let randomPhrase = phrase[Math.floor(Math.random() * phrase.length)];
-
-for (let i = 0; i < 20; i++) {
-	console.log("Love me, pet me! HSSSSSS!");
-	if (i % 2 === 0) {
-		console.log(randomPhrase);
-
-		
-	}
+function randomCatPhrase(phrase) {
+	return phrase[Math.floor(Math.random() * phrase.length)];
 }
 
-fizz buzz
+let phrase = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+
+for (let i = 0; i < 20; i++) {
+	console.log("Love me, pet me! HSSSSS!");
+	if (i % 2 === 0) {
+		console.log(randomCatPhrase(phrase));
+
+	}
+
+}
+
+// fizz buzz
 
 for (let i = 1; i < 101; i++ ) {
 	
@@ -182,13 +185,13 @@ for (let i = 0; i < 7; i++) {
 
 	console.log(argument += "#");
 
-// }
+}
 
 
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
 
-console.log(Math.floor(nums.length - 1));
+// console.log(Math.floor(nums.length - 1));
 
 
 
