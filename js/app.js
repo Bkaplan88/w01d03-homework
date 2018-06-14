@@ -176,13 +176,19 @@ console.log("working");
 
 // triangles
 
-let argument = 7;
+// let argument = 7;
 
-for (let i = 0; i < 7; i++) {
+// for (let i = 0; i < 7; i++) {
 
-	console.log(argument += "#");
+// 	console.log(argument += "#");
 
-}
+// }
+
+
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+
+console.log(Math.floor(nums.length - 1));
 
 
 
