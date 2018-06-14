@@ -116,26 +116,53 @@ let kristynsShoe = kristynsCloset.shift();
 
 thomsCloset[2].push(kristynsShoe);
 
-let kristynOutfitArr = [];
+// let kristynOutfitArr = [];
 
 // let randomOutfit = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
 
 // console.log(randomOutfit);
 
 
-function outfitGenerator (item1, item2, item3) {
+// Still trying to figure this one out
+// function outfitGenerator (item1, item2, item3) {
 	
-	kristynOutfitArr.push(arguments[0]);
-	kristynOutfitArr.push(arguments[1]);
-	kristynOutfitArr.push(arguments[2]);
+// 	kristynOutfitArr.push(arguments[0]);
+// 	kristynOutfitArr.push(arguments[1]);
+// 	kristynOutfitArr.push(arguments[2]);
 
+// }
+
+
+//  let outfit1 = outfitGenerator(kristynsCloset[1], kristynsCloset[2], kristynsCloset[3]);
+//  let outfit2 = outfitGenerator(kristynsCloset[0], kristynsCloset[4], kristynsCloset[5]);
+//  let outfit3 = outfitGenerator(kristynsCloset[1], kristynsCloset[3], kristynsCloset[4]);
+//  console.log(outfit1);
+
+// dirty laundry
+
+for (let i = 0; i < kristynsCloset.length; i++) {
+	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+
+for (let i = 0; i < thomsCloset[0].length; i++) {
+	
+	console.log(thomsCloset[0][i]);
+	
+}
+
+for (let i = 0; i < thomsCloset[1].length; i++) {
+	
+	console.log(thomsCloset[1][i]);
+	
+}
+
+for (let i = 0; i < thomsCloset[2].length; i++) {
+	
+	console.log(thomsCloset[2][i]);
+	
 }
 
 
- let outfit1 = outfitGenerator(kristynsCloset[1], kristynsCloset[2], kristynsCloset[3]);
- let outfit2 = outfitGenerator(kristynsCloset[0], kristynsCloset[4], kristynsCloset[5]);
- let outfit3 = outfitGenerator(kristynsCloset[1], kristynsCloset[3], kristynsCloset[4]);
- console.log(outfit1);
 
 
 
