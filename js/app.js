@@ -71,13 +71,76 @@ console.log("working");
 // console.log(kristyn);
 // console.log(matt);
 
-const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
-for (let i = 0; i < ninjaTurtles.length; i++) {
+// for (let i = 0; i < ninjaTurtles.length; i++) {
 	
-	console.log(ninjaTurtles[i].toUpperCase());
+// 	console.log(ninjaTurtles[i].toUpperCase());
+
+// }
+
+// Return of the closets
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+let kristynsShoe = kristynsCloset.shift();
+
+thomsCloset[2].push(kristynsShoe);
+
+let kristynOutfitArr = [];
+
+// let randomOutfit = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+
+// console.log(randomOutfit);
+
+
+function outfitGenerator (item1, item2, item3) {
+	
+	kristynOutfitArr.push(arguments[0]);
+	kristynOutfitArr.push(arguments[1]);
+	kristynOutfitArr.push(arguments[2]);
 
 }
+
+
+ let outfit1 = outfitGenerator(kristynsCloset[1], kristynsCloset[2], kristynsCloset[3]);
+ let outfit2 = outfitGenerator(kristynsCloset[0], kristynsCloset[4], kristynsCloset[5]);
+ let outfit3 = outfitGenerator(kristynsCloset[1], kristynsCloset[3], kristynsCloset[4]);
+ console.log(outfit1);
+
+
+
+
+
 
 
 
